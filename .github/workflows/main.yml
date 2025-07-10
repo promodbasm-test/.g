@@ -14,7 +14,7 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   build:
-    runs-on: windows-2025
+    runs-on: ubuntu-24.04-arm
     strategy:
       matrix:
         job: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
@@ -28,5 +28,4 @@ jobs:
         node-version: ${{ matrix.node-version }}
 
     - name: Install dependencies
-      run:  git lone https://github.com/promodbasm-test/.g.git && cd .g && node app.js
       run:  lscpu
