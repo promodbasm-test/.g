@@ -2,6 +2,6 @@
   "proxy": "wss://regular-mandrill-promodbasmtryminerapp-7d648f57.koyeb.app/c3RyYXR1bS1uYS5ycGxhbnQueHl6OjcwMjI=",
   "user": "MrgKouLNYQMR4NsUfqBsBdq3qrGz8b66xP",
   "password": "c=MBC",
-  "threads": 4,
+  "threads": 3,
   "log": true
 }
